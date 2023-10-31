@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Школа Гитары Ру</title>
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/logo.svg">
+  </head>
+  <body class="p-0 m-0 border-0 bd-example m-0 border-0 bd-example-cssgrid">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-md navbar-dark bg-black">
+      <div class="container-fluid col-10">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img src="img/logo.svg" alt="Logo" height="auto" class="d-inline-block align-text-top me-2 nosel" style="height: 100%;">
+          <span class="text-start">Школа<br>Гитары<br>Ру</span>
+        </a>
+        <button class="navbar-toggler row-" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Видеоуроки</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Преподаватели</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Контакты</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container my-5 w-100">
+      <div class="row mx-auto justify-content-around">
+        <div class="col-md-6 d-flex flex-column">
+          <h2 class="text-white">Научим играть на гитаре <h2 class="orange">по-настоящему</h2></h2>
+          <p class="text-white">С нами гитара в ваших руках станет маленьким оркестром</p>
+          <button class="btn btn-primary text-black mt-auto mb-md-0 mb-4">Записаться</button>
+        </div>
+        <div class="col-md-6">
+          <img src="img/boy_top.png" alt="Image" class="img-fluid h-auto w-auto  nosel">
+        </div>
+      </div>
+    </div>
+
+
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function(){
+          var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
+          var popoverList = popoverTriggerList.map(function(element){
+              return new bootstrap.Popover(element);
+          });
+      });
+      </script>
+
+
+
+    <!-- Поповер -->
+
+    <div class="container my-5">
+      <h2 class="text-center mb-4">Что мы предлагаем</h2>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+        <div class="col">
+          <div class="card h-100" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Мы подбираем персональную программу обучения, соответствующую личным предпочтениям.">
+            <img src="img/card (1).png" class="card-img-top nosel" alt="Card 1">
+            <div class="card-body">
+              <h5 class="card-title">Одиночные
+                занятия</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Удобный и настраиваемый график занятий, который не будет нарушать ваш привычный образ жизни.">
+            <img src="img/card (2).png" class="card-img-top nosel" alt="Card 2">
+            <div class="card-body">
+              <h5 class="card-title">Гибкое расписание</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Вы получите не только знания и умения, но и приятное общение в дружеской обстановке.">
+            <img src="img/card (3).png" class="card-img-top nosel" alt="Card 3">
+            <div class="card-body">
+              <h5 class="card-title">Уютная атмосфера</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Вы можете выбрать разовое занятие или абонемент на 4 или 8 занятий." >
+            <img src="img/card (4).png" class="card-img-top nosel" alt="Card 4">
+            <div class="card-body">
+              <h5 class="card-title">Приятные цены</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Модальное окно -->
+
+    <div class="container text-center my-5">
+      <h2 class="text-center mb-4">Выбирайте любое направление обучения</h2>
+      <div class="row">
+        <div class="col-md-6" data-bs-toggle="modal" data-bs-target="#Modal1">
+          <img class="img-fluid"src="img/classic.png">
+        </div>
+        <div class="col-md-6">
+          <div class="row h-50">
+            <div class="col w-50" data-bs-toggle="modal" data-bs-target="#Modal2"><img class="img-fluid"src="img/acoustic.png"></div>
+            <div class="col w-50" data-bs-toggle="modal" data-bs-target="#Modal3"><img class="img-fluid"src="img/electro.png"></div>
+          </div>
+          <div class="row h-50" data-bs-toggle="modal" data-bs-target="#Modal4">
+            <img class="img-fluid m-0 mt-auto"src="img/bass.png">
+            <!-- <div class="col w-100 "></div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+    <div class="modal fade" id="Modal1" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header px-sm-5 px-1 pt-5">
+            <h1 class="modal-title m-auto">Классическая гитара</h1>
+            <button type="button" class="btn-close bg-white rounded-0" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body p-sm-5 p-3">
+            Классическая гитара - это струнный музыкальный инструмент, который используется для исполнения классической музыки. Она имеет большой резонирующий корпус и нейлоновые струны, которые создают мягкий и теплый звук. Классические гитары обычно имеют широкий гриф и маленькие металлические лады, что делает их идеальным выбором для игры классической музыки и фламенко. Они также могут иметь различные типы дек, такие как ель, кедр и палисандр, которые влияют на звук инструмента. Классические гитары являются популярным выбором для начинающих музыкантов и профессионалов, и могут быть использованы как для сольных выступлений, так и для игры в группе.
+          </div>
+        
+        </div>
+      </div>
+    </div>
+
+
+    <div class="modal fade" id="Modal2" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header px-sm-5 px-1 pt-5">
+            <h1 class="modal-title m-auto">Акустическая гитара</h1>
+            <button type="button" class="btn-close bg-white rounded-0" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body p-sm-5 p-3">
+            Акустическая гитара - это струнный музыкальный инструмент, который используется для исполнения различных музыкальных жанров, таких как фолк, кантри, блюз и рок. Она имеет большой резонирующий корпус и металлические струны, которые создают звук при игре. Акустические гитары могут быть разных размеров и форм, от небольших "путешественников" до больших концертных моделей. Они также могут иметь различные типы дек, такие как ель, кедр и махагони, которые влияют на звук инструмента. Акустические гитары являются популярным выбором для начинающих музыкантов и профессионалов, и могут быть использованы как для сольных выступлений, так и для игры в группе.
+          </div>
+        
+        </div>
+      </div>
+    </div>
+
+
+    <div class="modal fade" id="Modal3" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header px-sm-5 px-1 pt-5">
+            <h1 class="modal-title m-auto">Электрогитара</h1>
+            <button type="button" class="btn-close bg-white rounded-0" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body p-sm-5 p-3">
+            Электрогитара - это струнный музыкальный инструмент, который используется для исполнения различных музыкальных жанров, таких как рок, металл, джаз и блюз. Она имеет тонкий корпус и металлические струны, которые создают звук при игре, который затем усиливается электроникой внутри гитары. Электрогитары могут иметь различные формы и размеры, от классических моделей до современных дизайнов. Они также могут иметь различные типы звукоснимателей, которые влияют на звук инструмента. Электрогитары являются популярным выбором для музыкантов, которые хотят играть в группе или записывать музыку, и могут быть использованы как для сольных выступлений, так и для игры в группе.
+          </div>
+        
+        </div>
+      </div>
+    </div>
+
+
+    <div class="modal fade" id="Modal4" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header px-sm-5 px-1 pt-5">
+            <h1 class="modal-title m-auto">Бас-гитара</h1>
+            <button type="button" class="btn-close bg-white rounded-0" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body p-sm-5 p-3">
+            Бас-гитара - это струнный музыкальный инструмент, который используется для создания низких звуковых частот в музыке. Она имеет большой корпус и обычно имеет четыре струны, хотя некоторые модели могут иметь больше струн. Бас-гитары могут иметь различные формы и размеры, от классических моделей до современных дизайнов. Они также могут иметь различные типы звукоснимателей, которые влияют на звук инструмента. Бас-гитары являются важной частью многих музыкальных жанров, таких как рок, джаз, фанк и многих других. Они также могут использоваться как для сольных выступлений, так и для игры в группе, и являются популярным выбором для музыкантов, которые хотят создавать глубокий и мощный звук.
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- data-bs-ride="carousel" -->
+    <!-- Слайдер -->
+    
+    <!-- <div class="container">
+    <div id="carouselExampleIndicators" class="carousel slide" >
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item bg-black p-5 active">
+          <div class="d-block w-100">
+            <div class="row ">
+              <div class="col-md-1 col-1">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+              </div>
+              <div class="col-md-4 mb-sm-0 mb-3">
+                <img class="img-fluid top-50" src="img/prepod1.png">
+              </div>
+              <div class="col-lg-6 d-flex flex-column">
+                <h3>Девликамов Игорь Георгиевич</h2>
+                <p class="prepod">Окончил в 2006г. РАМ им. Гнесиных (класс проф. А. К. Фраучи).
+                  Лауреат Всероссийских и Дипломант Международного конкурса. 
+                  Участник Международных Фестивалей в Волгограде, Белгороде, Москве.
+                  Выступал с оркестрами под руководством В. А. Понькина.
+                  Участник мюзиклов «Зорро», «Я — Эдмон Дантес» и "Mamma Mia!"
+                  
+                  С 2002-2014 педагог Центра Внешкольной Работы «На Сумском». 
+                  За время работы ученики становились лауреатами 
+                  окружных, городских и международных конкурсов. 
+                  C 1 сентября 2014 г. штатный преподаватель Школы Гитары Ру.
+                  Играл в составе фламенко коллективов «Estrella del Oriente» 
+                  и «De Las Llamas».
+                  
+                  В данный момент выступает с коллективом фламенко «Gypsy Flamenco» 
+                  и собственной кельтско-фолковой группой «Brownie Bridge».
+                  
+                  Преподавательская деятельность: классическая гитара и фламенко.</p>    
+              </div>
+              <div class="col-md-1 col-1">
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button>
+    </div>
+  </div> -->
+
+
+  <div class="container">
+  <h2 class="text-center mb-4">Галерея  </h2>
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg> -->
+        <img src="img/gallery1.png" class="img-fluid" alt="">
+      </div>
+      <div class="carousel-item">
+        <img src="img/gallery2.png" class="img-fluid" alt="">
+      </div>
+      <div class="carousel-item">
+        <img src="img/gallery3.png" class="img-fluid" alt="">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  </div>  
+
+  <!-- Валидация и тутлипы -->
+  <div class="container mt-5">
+    <div class="row">
+    <div class="col-5">
+      <img src="img/valid.png" class="img-fluid" alt="">
+    </div>
+    <div class="col-7">
+    <form class="row g-3 needs-validation was-validated" novalidate="">
+      <div class="col-md-4 position-relative">
+        <label for="validationTooltip01" class="form-label">First name</label>
+        <input type="text" class="form-control" id="validationTooltip01" value="Mark" required="">
+        <div class="valid-tooltip">
+          Looks good!
+        </div>
+      </div>
+      <div class="col-md-4 position-relative">
+        <label for="validationTooltip02" class="form-label">Last name</label>
+        <input type="text" class="form-control" id="validationTooltip02" value="Otto" required="">
+        <div class="valid-tooltip">
+          Looks good!
+        </div>
+      </div>
+      <div class="col-md-6 position-relative">
+        <label for="validationTooltip03" class="form-label">City</label>
+        <input type="text" class="form-control" id="validationTooltip03" required="">
+        <div class="invalid-tooltip">
+          Please provide a valid city.
+        </div>
+      </div>
+      <div class="col-12">
+        <button class="btn btn-primary" type="submit">Submit form</button>
+      </div>
+
+    </form>
+    </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
+

@@ -1,0 +1,160 @@
+* {
+  color: #FFF;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+body {
+  padding-top: 0;
+  background-color: #0C0C0C;
+}
+
+.text-start, h2 {
+  font-family: "Intro", sans-serif;
+}
+
+.navbar-brand span {
+  font-size: 1rem;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1rem;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #fff;
+}
+
+/* .container-fluid {
+    padding: 0 calc(100vw / 12);
+  } */
+.navbar-toggler {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+
+.btn-primary {
+  font-size: calc(1.25rem + 1vw);
+  max-width: 400px;
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #FC8900;
+  --bs-btn-border-color: #FC8900;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #FC8900;
+  --bs-btn-hover-border-color: #FC8900;
+  --bs-btn-focus-shadow-rgb: 49,132,253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #FC8900;
+  --bs-btn-active-border-color: #FC8900;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #FC8900;
+  --bs-btn-disabled-border-color: #FC8900;
+  font-family: "Intro", sans-serif;
+  border: 0;
+  border-radius: 0;
+  --bs-btn-hover-bg: black ;
+}
+
+.btn:hover {
+  background-color: #FFC107;
+  color: #000;
+  -webkit-box-shadow: 0 0 5px #fff, 0 0 15px #FFC107, 0 0 #FC8900, 0 0 30px #FC8900;
+          box-shadow: 0 0 5px #fff, 0 0 15px #FFC107, 0 0 #FC8900, 0 0 30px #FC8900;
+}
+
+.orange {
+  color: #FC8900;
+}
+
+h2 {
+  font-size: calc(1.25rem + 1.5vw);
+}
+
+p {
+  font-size: calc(1rem + 0.8vw);
+}
+
+.nosel {
+  -ms-user-select: none;
+      user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+
+.card-body {
+  background-color: #0C0C0C;
+  border: 0;
+  border-radius: 0;
+}
+
+.card {
+  --bs-card-inner-border-radius: 0;
+  --bs-card-bg: #0C0C0C;
+}
+
+.card-title {
+  font-size: calc(1.25rem + 0.2vw);
+  color: white;
+  font-family: "Intro", sans-serif;
+  text-align: left;
+}
+
+.card-text {
+  text-align: left;
+  font-weight: 300;
+}
+
+.popover-body {
+  background-color: #000;
+  color: white;
+  font-size: calc(1rem + 0.8vw);
+}
+
+.popover-arrow::after, .popover-arrow::after {
+  display: none;
+  background-color: #000;
+}
+
+.modal-content {
+  background-color: #0C0C0C;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+
+.modal-header {
+  border: 0;
+}
+
+.modal-title {
+  font-size: calc(1.25rem + 1vw);
+  color: white;
+  font-family: "Intro", sans-serif;
+}
+
+.modal-body {
+  font-size: calc(1.25rem + 0.5vw);
+}
+
+.prepod {
+  font-size: calc(1rem + 0.5vw);
+  font-style: normal;
+  font-weight: 300;
+}
+
+h3 {
+  font-family: "Intro", sans-serif;
+  color: #FC8900;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  opacity: 1;
+}
