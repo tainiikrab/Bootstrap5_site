@@ -52,10 +52,16 @@
 
     <script>
       document.addEventListener("DOMContentLoaded", function(){
-          var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
-          var popoverList = popoverTriggerList.map(function(element){
-              return new bootstrap.Popover(element);
-          });
+      var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
+      var popoverList = popoverTriggerList.map(function(element){
+      var popover = new bootstrap.Popover(element);
+      element.addEventListener('shown.bs.popover', function () {
+        setTimeout(function () {
+        popover.hide();
+        }, 3000);
+      });
+      return popover;
+      });
       });
       </script>
 
@@ -239,6 +245,9 @@
     <div class="col-md-4 position-relative">
       <label for="validationTooltip01" class="form-label">Имя</label>
       <input type="text" class="form-control bg-black text-white rounded-0 border-2" id="validationTooltip01" required="">
+      <div class="invalid-tooltip">
+        Обязательное поле
+      </div>
       <div class="valid-tooltip">
         Отлично!
       </div>
@@ -246,6 +255,9 @@
     <div class="col-md-4 position-relative">
       <label for="validationTooltip02" class="form-label">Фамилия</label>
       <input type="text" class="form-control bg-black text-white rounded-0 border-2" id="validationTooltip02"  required="">
+      <div class="invalid-tooltip">
+        Обязательное поле
+      </div>
       <div class="valid-tooltip">
         Отлично!
       </div>
@@ -257,6 +269,9 @@
         <div class="invalid-tooltip">
          Обязательное поле
         </div>
+        <div class="valid-tooltip">
+          Отлично!
+        </div>
       </div>
     </div>
     <div class="col-md-6 position-relative">
@@ -265,12 +280,18 @@
       <div class="invalid-tooltip">
         Обязательное поле
       </div>
+      <div class="valid-tooltip">
+        Отлично!
+      </div>
     </div>
     <div class="col-md-6 position-relative">
       <label for="validationTooltip05" class="form-label">Город</label>
       <input type="text" class="form-control bg-black text-white rounded-0 border-2" id="validationTooltip05" required="">
       <div class="invalid-tooltip">
         Обязательное поле
+      </div>
+      <div class="valid-tooltip">
+        Отлично!
       </div>
     </div>
     <div class="col-12 mt-5">

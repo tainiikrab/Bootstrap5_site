@@ -141,3 +141,10 @@ h3{
 .nav-link{
   font-size: calc(1rem + 0.5vw) !important
 }
+.invalid-tooltip, .valid-tooltip{
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
